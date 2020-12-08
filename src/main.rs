@@ -6,7 +6,12 @@
 // mod vectors;
 // mod conditional;
 // mod loops;
-mod functions;
+// mod functions;
+// mod pointer_ref;
+// mod structs;
+// mod enums;
+// mod cli;
+mod test;
 
 fn main() {
     // print::run();
@@ -17,5 +22,10 @@ fn main() {
     // vectors::run();
     // conditional::run();
     // loops::run();
-    functions::run();
+    // functions::run();
+    // pointer_ref::run();
+    // structs::run();
+    // enums::run();
+    // cli::run();
+    test::run();
 }
