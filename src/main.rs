@@ -7,6 +7,10 @@
 // mod conditional;
 // mod loops;
 // mod functions;
+// mod pointer_ref;
+// mod structs;
+// mod enums;
+// mod cli;
 mod map;
 
 fn main() {
@@ -19,5 +23,9 @@ fn main() {
     // conditional::run();
     // loops::run();
     // functions::run();
+    // pointer_ref::run();
+    // structs::run();
+    // enums::run();
+    // cli::run();
     map::run();
 }
