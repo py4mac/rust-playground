@@ -11,7 +11,8 @@
 // mod structs;
 // mod enums;
 // mod cli;
-mod map;
+// mod map;
+mod operator;
 
 fn main() {
     // print::run();
@@ -27,5 +28,6 @@ fn main() {
     // structs::run();
     // enums::run();
     // cli::run();
-    map::run();
+    // map::run();
+    operator::run();
 }
