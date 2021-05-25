@@ -8,17 +8,13 @@
           "type": "lldb",
           "request": "launch",
           "name": "Launch",
-          "args": [],
-          "program": "${workspaceFolder}/target/debug/rust-sandbox",
-          "windows": {
-            "program": "${workspaceFolder}/target/debug/rust-sandbox.exe"
-          },
-          "cwd": "${workspaceFolder}",
-          "stopOnEntry": false,
-          "sourceLanguages": [
-            "rust"
+          "args": [
+            "test",
+            "1"
           ],
-          "preLaunchTask": "build"
+          "program": "${workspaceFolder}/target/debug/rust-sandbox",
+          "cwd": "${workspaceFolder}",
+          "preLaunchTask": "build",
         }
     ]
 }
